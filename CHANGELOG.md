@@ -9,22 +9,22 @@ These should not impact the functionality of the module.
 
 **Implemented enhancements:**
 
-- Redesign selinux::module parameters [\#178](https://github.com/voxpupuli/puppet-selinux/issues/178)
+- BREAKING: Redesign selinux::module parameters [\#178](https://github.com/voxpupuli/puppet-selinux/issues/178)
 - Automatically order resources to not produce runtime failures [\#147](https://github.com/voxpupuli/puppet-selinux/issues/147)
 - selinux::module should not manage files in /usr [\#146](https://github.com/voxpupuli/puppet-selinux/issues/146)
 - Remove dependency on make and selinux-policy-devel in selinux::module [\#141](https://github.com/voxpupuli/puppet-selinux/issues/141)
-- replace all validate functions with datatypes [\#201](https://github.com/voxpupuli/puppet-selinux/pull/201) ([bastelfreak](https://github.com/bastelfreak))
+- Replace all validate functions with datatypes [\#201](https://github.com/voxpupuli/puppet-selinux/pull/201) ([bastelfreak](https://github.com/bastelfreak))
 - Convert selinux::boolean to puppet types [\#198](https://github.com/voxpupuli/puppet-selinux/pull/198) ([oranenj](https://github.com/oranenj))
-- Redesign selinux::module defined type [\#195](https://github.com/voxpupuli/puppet-selinux/pull/195) ([vinzent](https://github.com/vinzent))
-- Selinux permissive type [\#183](https://github.com/voxpupuli/puppet-selinux/pull/183) ([oranenj](https://github.com/oranenj))
-- Add selinux\_fcontext and selinux\_fcontext\_equivalence types [\#177](https://github.com/voxpupuli/puppet-selinux/pull/177) ([oranenj](https://github.com/oranenj))
-- Downgrade enforcing to permissive configuration when SELinux is disabled [\#175](https://github.com/voxpupuli/puppet-selinux/pull/175) ([oranenj](https://github.com/oranenj))
-- Add a selinux\_port type and provider [\#174](https://github.com/voxpupuli/puppet-selinux/pull/174) ([oranenj](https://github.com/oranenj))
+- BREAKING: Redesign selinux::module defined type [\#195](https://github.com/voxpupuli/puppet-selinux/pull/195) ([vinzent](https://github.com/vinzent))
+- BREAKING: Selinux permissive type [\#183](https://github.com/voxpupuli/puppet-selinux/pull/183) ([oranenj](https://github.com/oranenj))
+- BREAKING: Add selinux\_fcontext and selinux\_fcontext\_equivalence types [\#177](https://github.com/voxpupuli/puppet-selinux/pull/177) ([oranenj](https://github.com/oranenj))
+- BREAKING: Downgrade enforcing to permissive configuration when SELinux is disabled [\#175](https://github.com/voxpupuli/puppet-selinux/pull/175) ([oranenj](https://github.com/oranenj))
+- BREAKING: Add a selinux\_port type and provider [\#174](https://github.com/voxpupuli/puppet-selinux/pull/174) ([oranenj](https://github.com/oranenj))
 - Document known problems / limitations [\#171](https://github.com/voxpupuli/puppet-selinux/pull/171) ([vinzent](https://github.com/vinzent))
 
 **Fixed bugs:**
 
-- Can't specify to remove permissive domain [\#165](https://github.com/voxpupuli/puppet-selinux/issues/165)
+- Can't remove permissive domain [\#165](https://github.com/voxpupuli/puppet-selinux/issues/165)
 - Silently doesn't remove port context [\#164](https://github.com/voxpupuli/puppet-selinux/issues/164)
 - selinux class parameters boolean, fcontext, module, permissive and port are ignored [\#148](https://github.com/voxpupuli/puppet-selinux/issues/148)
 - This module accepts invalid config for port [\#119](https://github.com/voxpupuli/puppet-selinux/issues/119)
@@ -52,8 +52,8 @@ These should not impact the functionality of the module.
 - Fix spelling for supported type in README [\#203](https://github.com/voxpupuli/puppet-selinux/pull/203) ([ardrigh](https://github.com/ardrigh))
 - Update strings docs [\#197](https://github.com/voxpupuli/puppet-selinux/pull/197) ([vinzent](https://github.com/vinzent))
 - Remove tests for Fedora 19-23 and CentOS 5 [\#194](https://github.com/voxpupuli/puppet-selinux/pull/194) ([vinzent](https://github.com/vinzent))
-- Remove Amazon Linux support [\#193](https://github.com/voxpupuli/puppet-selinux/pull/193) ([vinzent](https://github.com/vinzent))
-- Remove support for EL5 and Fedora \< 24 [\#192](https://github.com/voxpupuli/puppet-selinux/pull/192) ([vinzent](https://github.com/vinzent))
+- BREAKING: Remove Amazon Linux support [\#193](https://github.com/voxpupuli/puppet-selinux/pull/193) ([vinzent](https://github.com/vinzent))
+- BREAKING: Remove support for EL5 and Fedora \< 24 [\#192](https://github.com/voxpupuli/puppet-selinux/pull/192) ([vinzent](https://github.com/vinzent))
 - Fix puppet strings warnings and minor README.md update [\#191](https://github.com/voxpupuli/puppet-selinux/pull/191) ([vinzent](https://github.com/vinzent))
 - Rubocop config fixes [\#182](https://github.com/voxpupuli/puppet-selinux/pull/182) ([vinzent](https://github.com/vinzent))
 - modulesync 0.19.0 [\#176](https://github.com/voxpupuli/puppet-selinux/pull/176) ([bastelfreak](https://github.com/bastelfreak))
