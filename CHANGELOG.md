@@ -10,8 +10,7 @@ These should not impact the functionality of the module.
 **Implemented enhancements:**
 
 - Redesign selinux::module parameters [\#178](https://github.com/voxpupuli/puppet-selinux/issues/178)
-- Can't specify to remove permissive domain [\#165](https://github.com/voxpupuli/puppet-selinux/issues/165)
-- Ordering of resources [\#147](https://github.com/voxpupuli/puppet-selinux/issues/147)
+- Automatically order resources to not produce runtime failures [\#147](https://github.com/voxpupuli/puppet-selinux/issues/147)
 - selinux::module should not manage files in /usr [\#146](https://github.com/voxpupuli/puppet-selinux/issues/146)
 - Remove dependency on make and selinux-policy-devel in selinux::module [\#141](https://github.com/voxpupuli/puppet-selinux/issues/141)
 - replace all validate functions with datatypes [\#201](https://github.com/voxpupuli/puppet-selinux/pull/201) ([bastelfreak](https://github.com/bastelfreak))
@@ -25,6 +24,7 @@ These should not impact the functionality of the module.
 
 **Fixed bugs:**
 
+- Can't specify to remove permissive domain [\#165](https://github.com/voxpupuli/puppet-selinux/issues/165)
 - Silently doesn't remove port context [\#164](https://github.com/voxpupuli/puppet-selinux/issues/164)
 - selinux class parameters boolean, fcontext, module, permissive and port are ignored [\#148](https://github.com/voxpupuli/puppet-selinux/issues/148)
 - This module accepts invalid config for port [\#119](https://github.com/voxpupuli/puppet-selinux/issues/119)
