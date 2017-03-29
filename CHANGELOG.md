@@ -15,7 +15,6 @@ These should not impact the functionality of the module.
 - Remove dependency on make and selinux-policy-devel in selinux::module [\#141](https://github.com/voxpupuli/puppet-selinux/issues/141)
 - Replace all validate functions with datatypes [\#201](https://github.com/voxpupuli/puppet-selinux/pull/201) ([bastelfreak](https://github.com/bastelfreak))
 - Convert selinux::boolean to puppet types [\#198](https://github.com/voxpupuli/puppet-selinux/pull/198) ([oranenj](https://github.com/oranenj))
-- BREAKING: Redesign selinux::module defined type [\#195](https://github.com/voxpupuli/puppet-selinux/pull/195) ([vinzent](https://github.com/vinzent))
 - BREAKING: Selinux permissive type [\#183](https://github.com/voxpupuli/puppet-selinux/pull/183) ([oranenj](https://github.com/oranenj))
 - BREAKING: Add selinux\_fcontext and selinux\_fcontext\_equivalence types [\#177](https://github.com/voxpupuli/puppet-selinux/pull/177) ([oranenj](https://github.com/oranenj))
 - BREAKING: Downgrade enforcing to permissive configuration when SELinux is disabled [\#175](https://github.com/voxpupuli/puppet-selinux/pull/175) ([oranenj](https://github.com/oranenj))
